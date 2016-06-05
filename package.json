@@ -1,6 +1,6 @@
 {
   "name": "url-encode",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Ensures encoding of given URL",
   "main": "index.js",
   "scripts": {

@@ -29,6 +29,6 @@ describe('EncodeUrl', () => {
 
   it('should throw InvalidArgumentError for malformed URL components', () => {
     const original = 'http://www.test.com:80/i/P%E4ron.jpg?%C3%B6=1&%C3%A5=yes#%C3%A41';
-    expect(() => encode(original)).to.throw();
+    expect(() => encode(original)).to.throw(TypeError);
   });
 });

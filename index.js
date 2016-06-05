@@ -13,7 +13,7 @@ function encode(url) {
     return encode(decodedUrl);
   }
   catch (err) {
-    throw new Error('Url is malformed');
+    throw new TypeError('Url is malformed');
   }
 }
 

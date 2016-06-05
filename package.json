@@ -1,0 +1,23 @@
+{
+  "name": "url-encode",
+  "version": "1.0.0",
+  "description": "Ensures encoding of given URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moooji/url-encode.git"
+  },
+  "keywords": [
+    "url",
+    "encoding"
+  ],
+  "author": "Steffen Strätz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moooji/url-encode/issues"
+  },
+  "homepage": "https://github.com/moooji/url-encode#readme"
+}

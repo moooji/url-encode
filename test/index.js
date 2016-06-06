@@ -4,6 +4,11 @@ const expect = require('chai').expect;
 const encode = require('../index');
 
 describe('EncodeUrl', () => {
+  it('should return TypeError if website url is not valid', () => {
+    const original = 'http:///';
+    expect(() => encode(original)).to.throw(TypeError);
+  });
+
   it('should not change normal URLs', () => {
     const original = 'http://www.google.com:80/index.html?search=yes&no=false#top';
     expect(encode(original)).to.equal(original);
